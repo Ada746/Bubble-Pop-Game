@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.bulle {
+    position: absolute;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.bulle.grandir {
+    transform: scale(1.3);
+}
